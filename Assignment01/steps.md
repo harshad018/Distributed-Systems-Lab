@@ -1,17 +1,4 @@
-You accidentally typed **two commands as one line**, so `javac` is treating `AddClient.javarmic` as a class name.
 
-You wrote:
-
-```powershell
-javac AddServerIntf.java AddServerImpl.java AddServer.java AddClient.javarmic AddServerImpl
-```
-
-You must run them as **two separate commands**:
-
-```powershell
-javac AddServerIntf.java AddServerImpl.java AddServer.java AddClient.java
-rmic AddServerImpl
-```
 
 Step-by-step in `C:\Users\Admin\Downloads\RMIAddExample`:
 
